@@ -1,6 +1,6 @@
 # Generate a trapezoid
 
-def backrange(y, x): # backwards range
+def backrange(y, x): # backwards range, we need this for the inverted trangle.
 	list = [] # I know we (probably) use a generator, but this will do a "return"
 	i = y - 1 # no overflow
 	while i >= x: # go in reverse
